@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Brain, ChartLineUp } from "lucide-react";
+import { ArrowRight, Brain, ChartLine } from "lucide-react";
 
 const Hero = () => {
   return (

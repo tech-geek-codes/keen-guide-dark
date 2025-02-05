@@ -1,8 +1,8 @@
-import { BookOpen, Brain, ChartLineUp, Users } from "lucide-react";
+import { BookOpen, Brain, ChartLine, Users } from "lucide-react";
 
 const features = [
   {
-    icon: <ChartLineUp className="w-6 h-6" />,
+    icon: <ChartLine className="w-6 h-6" />,
     title: "Attendance Analytics",
     description: "Track and analyze attendance patterns to identify engagement trends and potential issues early."
   },
