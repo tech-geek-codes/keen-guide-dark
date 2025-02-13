@@ -25,11 +25,18 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <Link to="/login">
-          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-            Login
-          </Button>
-        </Link>
+        <div className="flex items-center space-x-4">
+          <Link to="/login">
+            <Button variant="ghost" className="text-muted-foreground hover:text-foreground">
+              Login
+            </Button>
+          </Link>
+          <Link to="/signup">
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              Sign Up
+            </Button>
+          </Link>
+        </div>
       </div>
     </nav>
   );
