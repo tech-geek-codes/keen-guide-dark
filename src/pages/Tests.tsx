@@ -42,6 +42,8 @@ const Tests = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <div className="container mx-auto px-4 pt-24">
+        <h1 className="text-3xl font-bold mb-8">AI Predictions & Roadmap</h1>
+        
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Calendar Section */}
           <Card className="glass-card lg:col-span-1">
@@ -91,7 +93,7 @@ const Tests = () => {
         <h2 className="text-2xl font-bold mt-12 mb-8">Upcoming Tests</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {tests.map((test) => (
-            <Card key={test.id} className="glass-card">
+            <Card key={test.id} className="glass-card hover:scale-105 transition-transform duration-300">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <FileText className="h-5 w-5 text-primary" />
